@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "1.0.0",
+ 
+    "name": "ColorVisual", 
+    "description": "Chrome Extension to visualize colors",
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs"
+     ]
+}
